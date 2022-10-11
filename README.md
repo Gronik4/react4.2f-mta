@@ -14,6 +14,6 @@
 
 Реализовать кнопку редактирования ✎ - при нажатии на которую происходит перенос данных в форму ввода с последующим сохранением (при нажатии кнопки Ok).
 
-**Project Sample** 
+**Project Sample**  [![Build status](https://ci.appveyor.com/api/projects/status/s3wka13ubr6okk1c?svg=true)](https://ci.appveyor.com/project/Gronik4/react4-2f-mta)
 
 [Посмотреть результат]( https://gronik4.github.io/react4.2f-mta/)
