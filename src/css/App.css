@@ -1,0 +1,95 @@
+body {margin: 0; padding: 0;}
+* {box-sizing: border-box;}
+  .container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding-top:5px;
+    text-align: center;
+    background: #FFFADB;
+    color: blue;
+  }
+    .App {
+/* Required properties */
+      width: 96%;
+      height: calc(100vh - 47px);
+      margin: auto;
+      color: #000;
+      background: #e9e9e9;
+      overflow: auto;
+      border: 1px solid #000;
+      border-top: 1px solid #e9e9e9;
+/* project properties */
+
+    }
+      .entry {
+        width: 60%;
+        margin: 2vh auto;
+        display: flex;
+        justify-content: space-around;
+      }
+        .grup_date {
+          display: flex;
+          flex-direction: column;
+          font-size: 18px;
+          text-align: left;
+        }
+          .input {
+            height: 35px;
+            border-radius: 8px;
+            text-align: center;
+          }
+        .btn_form {
+          width: 75px;
+          height: 35px;
+          margin-top: 23px;
+          font-size: 16px;
+          border-radius: 8px;
+          background: #fff;
+        }
+        .btn_form:hover {cursor: pointer; background: #e9e9e9;}
+      .content_header {
+        width: 65%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 3vw;
+        font-size: 18px;
+      }
+      .content {
+        position: relative;
+        width: 65%;
+        margin: auto;
+        background: #fff;
+        border: 2px solid #000;
+        border-radius: 8px;
+      }
+        .content_item {
+          display: flex;
+          justify-content: space-between;
+          align-items: baseline;
+          padding: 0 3vw;
+        }
+          .pics { width: 60px;}
+            .pic {
+              width: 38%;
+              margin: 0 2px;
+            }
+            .pic:hover {cursor: pointer;}
+      .popup {
+        width: 60%;
+        margin: 2vh auto;
+        padding: 4vh 10vw;
+        position: absolute;
+        z-index: 10;
+        left: calc((100% - 60%)/2);
+        background: #c8f7ef;
+        border: #000 2px solid;
+        border-radius: 10px;
+      }
+        .blok_but {
+          display: flex;
+          justify-content: space-around;
+        }
+          .forPopup {width: max-content;}
+
