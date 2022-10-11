@@ -16,4 +16,4 @@
 
 **Project Sample** 
 
-[Посмотреть результат]()
+[Посмотреть результат]( https://gronik4.github.io/react4.2f-mta/)
